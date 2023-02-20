@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys 
 import subprocess
 import argparse
@@ -213,7 +215,7 @@ def main():
 	get_endpoints()
 	
 	if args.verbose:
-		#Qctivate logging
+		#Activate logging
 		logger= logging.getLogger()
 		logger.setLevel('DEBUG')
 
